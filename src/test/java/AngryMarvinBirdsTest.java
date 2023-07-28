@@ -5,7 +5,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 @RunWith(JUnit4.class)
@@ -29,7 +28,7 @@ public class AngryMarvinBirdsTest {
 
     @Test
     public void shouldShowTwoStars(){
-        var showStars =   angryMarvinBirds.showStars(2);
+        var showStars = angryMarvinBirds.showStars(2);
 
         String[] result = {"*","*","_"};
         Assert.assertEquals(Arrays.stream(result).toList(), Arrays.stream(showStars).toList());
@@ -37,10 +36,10 @@ public class AngryMarvinBirdsTest {
 
     @Test
     public void shouldShowOneStars(){
-        var showStars =   angryMarvinBirds.showStars(2);
+        var showStars = angryMarvinBirds.showStars(1);
 
         String[] result = {"*","_","_"};
-        Assert.assertEquals(Arrays.stream(result).toList(), Arrays.stream(showStars).toString());
+        Assert.assertEquals(Arrays.stream(result).toList(), Arrays.stream(showStars).toList());
     }
 
 }
