@@ -22,24 +22,24 @@ public class AngryMarvinBirdsTest {
     public void shouldShowTreeStars(){
        var showStars =   angryMarvinBirds.showStars(3);
 
-        String[] result = {"*","*","*"};
-        Assert.assertEquals(Arrays.stream(result).toList(), Arrays.stream(showStars).toList());
+        var result = "* * *";
+        Assert.assertEquals((result), showStars);
     }
 
     @Test
     public void shouldShowTwoStars(){
         var showStars = angryMarvinBirds.showStars(2);
 
-        String[] result = {"*","*","_"};
-        Assert.assertEquals(Arrays.stream(result).toList(), Arrays.stream(showStars).toList());
+        var result = "* * _";
+        Assert.assertEquals((result), showStars);
     }
 
     @Test
     public void shouldShowOneStars(){
         var showStars = angryMarvinBirds.showStars(1);
 
-        String[] result = {"*","_","_"};
-        Assert.assertEquals(Arrays.stream(result).toList(), Arrays.stream(showStars).toList());
+        var result = "* _ _";
+        Assert.assertEquals(result, showStars);
     }
 
 }
