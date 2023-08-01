@@ -1,11 +1,11 @@
-import com.icarros.AngryMarvinBirds;
+package challenge2;
+
+import com.icarros.challenge2.AngryMarvinBirds;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
-
-import java.util.Arrays;
 
 @RunWith(JUnit4.class)
 public class AngryMarvinBirdsTest {

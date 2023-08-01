@@ -1,5 +1,6 @@
-import com.icarros.AngryMarvinBirds;
-import com.icarros.CreepyHours;
+package challenge3;
+
+import com.icarros.challenge3.CreepyHours;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

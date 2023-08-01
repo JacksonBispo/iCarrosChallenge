@@ -1,4 +1,4 @@
-package com.icarros;
+package com.icarros.challenge1;
 
 public class FizzingNBuzzing {
 

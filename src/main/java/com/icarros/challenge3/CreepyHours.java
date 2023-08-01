@@ -1,4 +1,4 @@
-package com.icarros;
+package com.icarros.challenge3;
 
 public class CreepyHours {
 
